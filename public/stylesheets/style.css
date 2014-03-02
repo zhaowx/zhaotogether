@@ -1,0 +1,87 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ul, ol {
+    list-style: none outside none;
+}
+a {
+  color: #00B7FF;
+}
+
+.header {
+    background: none no-repeat scroll center 0 / cover #222222;
+    min-height: 400px;
+    position: relative;
+    text-align: center;
+}
+
+/*posts*/
+
+.cell {
+    box-shadow: 0 1px 0 #E5E5E5;
+    overflow: hidden;
+    padding: 3px 10px;
+    position: relative;
+}
+.cell .block {
+    color: #B2B2B2;
+    float: left;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.cell .block.count {
+    margin: 0 8px;
+    width: 170px;
+}
+.topic_wrap {
+    line-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
+.last_time {
+    color: #B7ADAD;
+    font-size: 13px;
+    line-height: 53px;
+    padding: 0 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.user_avatar img, .comments img {
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(136, 78, 78, 0.5);
+    height: 40px;
+    width: 40px;
+}
+
+/*article*/
+.article{ font-size:20px; line-height:40px;}
+
+.tags_clound {position:relative; width:180px; height:180px; margin: 50px auto 0;}
+.tags_clound a {position:absolute; top:0px; left:0px; font-family:宋体; color:green; font-weight:bold; text-decoration:none; padding: 3px 6px;}
+.tags_clound a:hover {border: 1px solid #eee; background: #ddd; }
+.tags_clound .blue {color:blue;}
+.tags_clound .red {color:red;}
+.tags_clound .yellow {color:#dee519;}
+
+/*archive*/
+.archive a{ margin-left:20px;}
+
+/* comment*/
+.comments{}
+
+.com {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 15px;
+}
+.com .content{ margin-left:40px;}

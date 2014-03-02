@@ -1,0 +1,444 @@
+﻿[Fri Jan 03 2014 00:25:35 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:25:59 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:37
+    35| 									</form>
+    36| 								</li>
+ >> 37| 							<% if (!user) { %>
+    38| 								<li><a href='/login'>登入</a></li>
+    39| 								<li><a href='/reg'>注册</a></li>
+    40| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1478)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2665)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:27:35 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:28:03 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:37
+    35| 									</form>
+    36| 								</li>
+ >> 37| 							<% if (!user) { %>
+    38| 								<li><a href='/login'>登入</a></li>
+    39| 								<li><a href='/reg'>注册</a></li>
+    40| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1478)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2665)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:29:55 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:37
+    35| 									</form>
+    36| 								</li>
+ >> 37| 							<% if (!user) { %>
+    38| 								<li><a href='/login'>登入</a></li>
+    39| 								<li><a href='/reg'>注册</a></li>
+    40| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1478)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2665)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:30:25 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:32:25 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:32:28 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:42
+    40| 									</form>
+    41| 								</li>
+ >> 42| 							<% if (!user) { %>
+    43| 								<li><a href='/login'>登入</a></li>
+    44| 								<li><a href='/reg'>注册</a></li>
+    45| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1729)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:34:25 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:34:26 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:42
+    40| 									</form>
+    41| 								</li>
+ >> 42| 							<% if (!user) { %>
+    43| 								<li><a href='/login'>登入</a></li>
+    44| 								<li><a href='/reg'>注册</a></li>
+    45| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1729)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:35:32 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:42
+    40| 									</form>
+    41| 								</li>
+ >> 42| 							<% if (!user) { %>
+    43| 								<li><a href='/login'>登入</a></li>
+    44| 								<li><a href='/reg'>注册</a></li>
+    45| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1729)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:36:33 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:36:52 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:42
+    40| 									</form>
+    41| 								</li>
+ >> 42| 							<% if (!user) { %>
+    43| 								<li><a href='/login'>登入</a></li>
+    44| 								<li><a href='/reg'>注册</a></li>
+    45| 								
+
+user is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1729)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:38:39 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:38:57 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:61
+    59| 
+    60| 		<div class='container' id='container'>
+ >> 61| 			<% if (success) { %>
+    62| 				<div class='alert alert-success'>
+    63| 					<%= success %>
+    64| 				</div>
+
+success is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2300)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:39:55 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:61
+    59| 
+    60| 		<div class='container' id='container'>
+ >> 61| 			<% if (success) { %>
+    62| 				<div class='alert alert-success'>
+    63| 					<%= success %>
+    64| 				</div>
+
+success is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2300)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:40:39 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:41:55 GMT+0800 (中国标准时间)] /music
+ReferenceError: F:\baidu_project\bae\zhaowxblog\views\layout.ejs:61
+    59| 
+    60| 		<div class='container' id='container'>
+ >> 61| 			<% if (success) { %>
+    62| 				<div class='alert alert-success'>
+    63| 					<%= success %>
+    64| 				</div>
+
+success is not defined
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2300)
+    at eval (eval at <anonymous> (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2916)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\application.js:506:10)
+    at ServerResponse.res.render (F:\baidu_project\bae\zhaowxblog\node_modules\express\lib\response.js:760:7)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\express-ejs-layouts\lib\express-layouts.js:87:14
+    at View.exports.renderFile [as engine] (F:\baidu_project\bae\zhaowxblog\node_modules\ejs\lib\ejs.js:317:3)
+[Fri Jan 03 2014 00:42:39 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Fri Jan 03 2014 00:44:39 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:38:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:40:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:42:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:44:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:46:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:48:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:48:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:48:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:48:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 20:50:26 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:13:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:15:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:17:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:19:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:21:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:23:42 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:29:57 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:31:57 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:36:42 GMT+0800 (中国标准时间)] /music
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhaowxblog\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Tue Jan 07 2014 21:39:10 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:41:10 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:43:10 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:45:10 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:50:48 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:52:48 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:57:04 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Tue Jan 07 2014 21:59:04 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhaowxblog\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:26:47 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:28:47 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:39:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:41:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:43:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:45:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:47:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:49:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:51:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:53:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:53:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:53:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:53:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:53:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:55:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:55:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:55:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:55:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:55:24 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 22:58:43 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 23:09:51 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sat Feb 01 2014 23:22:51 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sun Mar 02 2014 13:11:43 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sun Mar 02 2014 13:13:43 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sun Mar 02 2014 13:15:43 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sun Mar 02 2014 13:17:43 GMT+0800 (中国标准时间)] /favicon.ico
+Error: ENOENT, open 'F:\baidu_project\bae\zhao_together\dev\node_modules\express\node_modules\connect\lib\public\favicon.ico'
+[Sun Mar 02 2014 13:38:58 GMT+0800 (中国标准时间)] /
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Sun Mar 02 2014 13:40:58 GMT+0800 (中国标准时间)] /
+MongoError: not authorized for query on together.sessions
+    at Object.exports.toError (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\utils.js:108:11)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:54
+    at Cursor.close (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:939:5)
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:21)
+    at null.<anonymous> (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1709:18)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\base.js:130:25)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\server.js:522:20
+    at MongoReply.parseBody (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:132:5)
+[Sun Mar 02 2014 13:46:03 GMT+0800 (中国标准时间)] /
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Sun Mar 02 2014 13:46:47 GMT+0800 (中国标准时间)] /
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Sun Mar 02 2014 13:47:25 GMT+0800 (中国标准时间)] /
+MongoError: not authorized for query on together.sessions
+    at Object.exports.toError (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\utils.js:108:11)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:54
+    at Cursor.close (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:939:5)
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:21)
+    at null.<anonymous> (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1709:18)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\base.js:130:25)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\server.js:522:20
+    at MongoReply.parseBody (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:132:5)
+[Sun Mar 02 2014 13:49:25 GMT+0800 (中国标准时间)] /
+MongoError: not authorized for query on together.sessions
+    at Object.exports.toError (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\utils.js:108:11)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:54
+    at Cursor.close (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:939:5)
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:21)
+    at null.<anonymous> (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1709:18)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\base.js:130:25)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\server.js:522:20
+    at MongoReply.parseBody (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:132:5)
+[Sun Mar 02 2014 13:50:54 GMT+0800 (中国标准时间)] /
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Sun Mar 02 2014 14:44:26 GMT+0800 (中国标准时间)] /stylesheets/images/icon/arrow-right.png
+Error: Error setting TTL index on collection : sessions <Error: no open connections>
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\lib\connect-mongo.js:139:23
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1227:28
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1371:30
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:156:22
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:608:48)
+    at Db._executeQueryCommand (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1705:12)
+    at Cursor.nextObject (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:649:13)
+    at Cursor.toArray (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:155:10)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1370:65
+    at Db.collection (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:484:44)
+[Sun Mar 02 2014 14:44:30 GMT+0800 (中国标准时间)] /new_task
+MongoError: not authorized for query on together.sessions
+    at Object.exports.toError (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\utils.js:108:11)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:54
+    at Cursor.close (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:939:5)
+    at commandHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:611:21)
+    at null.<anonymous> (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1709:18)
+    at g (events.js:175:14)
+    at EventEmitter.emit (events.js:106:17)
+    at Server.Base._callHandler (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\base.js:130:25)
+    at F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\connection\server.js:522:20
+    at MongoReply.parseBody (F:\baidu_project\bae\zhao_together\dev\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:132:5)

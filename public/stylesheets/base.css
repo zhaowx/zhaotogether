@@ -1,0 +1,218 @@
+
+body {
+    color: #353535;
+    font-family: 'Droid Sans',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.bs-header{ margin-top:60px;}
+ul, ol {
+    margin: 0 0 10px 25px;
+    padding: 0;
+	list-style:none;
+}
+
+/*Colors*/
+.green {color: #9FC569;}
+.red {color: #ED7A53;}
+.gray {color: #a2aaac;}
+.orange {color: #FF8A00;}
+.dark {color: #1F3140;}
+.blue {color: #3399cc;}
+.white {color: #ffffff;}
+
+/*float*/
+.float_l{ float:left; margin-left:15px;}
+.float_r{ float:right; margin-right:15px;}
+
+/*margin*/
+.margin_b_10{ margin-bottom:10px;}
+
+/*width*/
+.width_100{ width:100%;}
+
+/*header*/
+.t_header{ float:none; text-align:center;}
+.t_header .navbar-brand{ float:none; font-size:25px; line-height:50px;}
+.t_header .navbar-toggle{ display:inline-block;}
+
+/*tasks*/
+.task_info{ float:right; font-size:18px;}
+.task_point{ display:inline-block; width:25%; margin-left:25%;}
+
+
+/*box*/
+.box {
+    box-shadow: 0 1px 0 #FFFFFF;
+    margin-bottom: 25px;
+    min-height: 100%;
+    width: 100%;
+}
+.box .title {
+    background: url("images/box_title_bg.png") repeat scroll 0 0 transparent;
+    border: 1px solid #C4C4C4;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    height: auto;
+    position: relative;
+}
+.box .content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-color: -moz-use-text-color #C4C4C4 #C4C4C4;
+    border-image: none;
+    border-right: 1px solid #C4C4C4;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px;
+    position: relative;
+}
+.box .title h4 {
+    margin-bottom: 0;
+	margin-top:0;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+.box.gradient .title {
+    background: -moz-linear-gradient(center top , #FFFFFF 1%, #F3F3F3 100%) repeat scroll 0 0 transparent;
+}
+.box .content.noPad {
+    padding: 0;
+}
+.messages {
+    list-style: none outside none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.messages li {
+    padding: 10px 0 15px;
+    position: relative;
+    width: 100%;
+}
+.messages li a.avatar {
+    float: left;
+    margin: 0 15px;
+}
+
+.messages li.admin a.avatar {
+    float: right;
+}
+.messages li a.avatar img {
+    height: 40px;
+    width: 40px;
+}
+.messages li div.message {
+    background: -moz-linear-gradient(center top , #FFFFFF 1%, #F3F3F3 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 75px;
+    margin-right: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.messages li.user div.message:after {
+    background: url("images/icon/arrow-left.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    float: left;
+    height: 17px;
+    left: -10px;
+    position: absolute;
+    top: 10px;
+    width: 10px;
+}
+.messages li.admin div.message {
+    margin-left: 15px;
+    margin-right: 75px;
+}
+.messages li.admin div.message:after {
+    background: url("images/icon/arrow-right.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    float: left;
+    height: 17px;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 10px;
+}
+
+.messages li div.message .head {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.messages li div.message .head span.name {
+    color: #999999;
+    float: left;
+}
+.messages li div.message .head span.name strong {
+    color: #ED7A53;
+}
+.messages li div.message .head span.time {
+    color: #999999;
+    float: right;
+    font-size: 11px;
+    margin-right: 15px;
+}
+
+.messages li.sendMsg {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-top: 1px solid #C4C4C4;
+    padding-top: 15px;
+}
+.messages li.sendMsg form {
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+/*slide*/
+.slide{width:100px; height:20px;position:relative; display:inline-block;zoom:1; vertical-align:middle}
+.slide_cursor{position:absolute; left:0px;top:0px;*top:-1px;height:21px;width:11px; background-color:#F00; background:url(images/icon/cursor.gif) 0 0 no-repeat; border:none;}
+.slide_line{display:block;position:relative;top:9px;background-color:#F2F1E9;border-top:solid 1px #9D9C99;border-bottom:solid 1px #F0EDE0;height:1px;*height:3px;line-height:1px; overflow:hidden;margin:0 5px;}
+
+/*flot charts*/
+.demo-container {
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+	padding: 20px 15px 15px 15px;
+	margin: 15px auto 30px auto;
+	border: 1px solid #ddd;
+	background: #fff;
+	background: linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+	box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+	-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.demo-placeholder {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+/*friends*/
+.list-group.friend_list{ margin-left:0;}
+.friend_list .list-group-item img{width:40px; height:40px;}
+.friend_list .list-group-item:hover{ background:#eeeeee;}
+.friend_list .list-group-item .f_name{ margin-left:15px;}

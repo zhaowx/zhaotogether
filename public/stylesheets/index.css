@@ -1,0 +1,129 @@
+
+
+.reminder {
+    margin-bottom: 25px;
+    position: relative;
+}
+.reminder h4 {
+    border-bottom: 1px solid #C4C4C4;
+    line-height: 37px;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    position: relative;
+}
+.reminder ul {
+    list-style: none outside none;
+    margin: 0;
+}
+.reminder li {
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.reminder ul li .icon {
+    float: left;
+    margin-top: 6px;
+    width: 32px;
+}
+.reminder .number {
+    color: #ED7A53;
+    float: left;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 6px;
+    padding: 0 15px;
+}
+.reminder .txt {
+    float: left;
+    margin-top: 6px;
+}
+.reminder .btn {
+    float: right;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+a, .btn {
+    outline: medium none !important;
+}
+a {
+    color: #3399CC;
+    text-decoration: none;
+}
+.bigBtnIcon li a {
+    background: -moz-linear-gradient(center top , #FFFFFF 1%, #F3F3F3 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    display: inline-block;
+    height: 90px;
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+    width:104px;
+}
+
+.bigBtnIcon li a:after {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    content: "";
+    height: 98px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 112px;
+}
+.bigBtnIcon {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.bigBtnIcon li {
+    display: inline-block;
+    margin-bottom: 13px;
+    margin-right: 14px;
+    text-align: center;
+}
+.bigBtnIcon li a .glyphicon {
+    display: inline-block;
+    font-size: 26px;
+    margin: 8px 0 12px;
+    width: 100%;
+}
+
+.bigBtnIcon li a .txt {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+.bigBtnIcon li a .notification {
+    padding: 0 6px 1px;
+    z-index: 999;
+}
+.notification {
+    background: none repeat scroll 0 0 #ED7A53;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 7px;
+    position: absolute;
+    right: -10px;
+    text-shadow: none;
+    top: -11px;
+}
+.notification.blue {
+    background: none repeat scroll 0 0 #88BBC8;
+}
+.notification.green {
+    background: none repeat scroll 0 0 #9FC569;
+}

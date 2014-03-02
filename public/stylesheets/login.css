@@ -1,0 +1,190 @@
+/* Main.css version 1.9
+================================================== */
+
+html {height: 100%;}
+a{ text-decoration:none;}
+
+body {
+    color: #353535;
+    font-family: 'Droid Sans',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header{ max-width:100%;}
+.navbar .brand {float: none; text-align: center; margin:0;
+ color: #353535;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 8px 20px;
+	display:block;
+	}
+.navbar .navbar-inner {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("images/login_header_bg.png") repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #C4C4C4;
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    min-height: 66px;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.loginContainer {
+	position: absolute;
+	border:1px solid #c4c4c4;
+	width:300px;
+	/*height:232px;*/
+	height: auto;
+	left:50%;
+	top:50%;
+	margin-left:-155px;
+    margin-top: -150px;
+    border-radius: 2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow:  0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow:  0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background: #fefefe;
+    padding:0px 20px 0 20px;
+}
+
+.loginContainer:after,.loginContainer:before,.errorContainer:after,.errorContainer:before {
+	background: #f9f9f9;
+	background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(249,249,249,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+	border: 1px solid #c4c6ca;
+	content: "";
+	display: block;
+	height: 100%;
+	left: -1px;
+	position: absolute;
+	width: 100%;
+}
+.loginContainer:after, .errorContainer:after {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	transform: rotate(2deg);
+	top: 0;
+	z-index: -1;
+}
+.loginContainer:before, .errorContainer:before {
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	top: 0;
+	z-index: -2;
+}
+
+.loginPage .navbar .brand {float: none; text-align: center; margin:0;}
+.loginContainer .forgot {float: right;margin-right: -20px; font-size: 11px;}
+.loginContainer .form-horizontal {margin-bottom: 0px;}
+.loginContainer .form-actions {
+	padding-left:20px !important;
+	padding-right: 12px;
+	padding-bottom:20px;
+	padding-top:20px;
+	background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+    box-shadow: 0 1px 0 rgba(229, 229, 229, 0.1);
+	height:96px;
+	width:113%;
+}
+.loginContainer .form-row .form-label {
+	text-align: left;
+	padding-right: 27px;
+	padding-top: 6px;
+	position: relative;
+	font-weight:normal;
+}
+#loginForm .form-control{ margin-left:15px;}
+#loginForm label .icon16 {
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+}
+#loginForm .form-actions .checker{ display:inline-block;}
+#loginForm .form-actions #loginBtn{ padding:2px 16px;}
+/** {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+/*position elements*/
+.left {float:left;}
+.right {float:right;}
+.center {text-align:center; width:100%; display: inline-block;}
+	.center i {float:none; display: inline;}
+
+/*margins*/
+.marginR5 {margin-right: 5px;}
+.marginR10{margin-right: 10px;}
+.marginT5 {margin-top:5px;}
+.marginT10{margin-top:10px;}
+.marginB5 {margin-bottom: 5px;}
+.marginB10 {margin-bottom: 10px;}
+.marginL5 {margin-left: 5px;}
+.marginL10 {margin-left: 10px;}
+.margin10 {margin: 10px;}
+
+/*paddings*/
+.padding15 {padding:15px;}
+.padingR5 {padding-right: 5px;}
+.padingR10{padding-right: 10px;}
+.padingT5 {padding-top:5px;}
+.padingT10{padding-top:10px;}
+.padingB5 {padding-bottom: 5px;}
+.padingB10 {padding-bottom: 10px;}
+.padingL5 {padding-left: 5px;}
+.padingL10 {padding-left: 10px;}
+.padding {padding: 10px;}
+.nopadding{padding:0;}
+
+div.centerContent {margin: 0;display: block;}
+
+.strong {font-weight: 700;}
+
+a,.btn {outline: none !important;}
+
+
+/*Forms*/
+.form-row {
+	margin-top: 15px;
+	width: 100%;
+	position: relative;
+}
+	.form-row .form-label {
+		text-align: right;
+		padding-right: 27px;
+		padding-top: 6px;
+	}
+.form-row .watermark_container {width:100%;}
+.form-row .help-block {margin-left:0; min-height: 16px;}
+.form-row label .help-block {font-size: 11px; color:#999999;}
+.form-row .grid-inputs {margin-left:0;}
+.form-row .grid-inputs input {margin-bottom:15px;}
+.form-row .controls, .form-row .controls-textarea {margin-left:0;}
+	.form-row .controls input {margin-bottom: 20px;}
+	.form-row .controls input:nth-child(2) {
+		margin-bottom: 5px;
+	}
+.form-row .form-actions {padding-left:0;}
+
+.form-row .row-fluid [class*="span"] {margin-left: 0;}

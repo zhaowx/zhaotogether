@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>饼干-together</title>
+		<meta name="baidu-tc-cerfication" content="0f37e3d1b90475904621209c885c11d2" />
+		<link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+		
+		<!-- Custom styles for this template -->
+        <link href="/stylesheets/base.css" rel="stylesheet">
+        <link href="/stylesheets/index.css" rel="stylesheet">
+        <link href="/stylesheets/icons.css" rel="stylesheet">
+    
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+		
+		
+    <!-- Docs master nav -->
+     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+      <div class="container">
+        <div class="navbar-header t_header">
+        	<a href="#" class="navbar-toggle"><span class="glyphicon glyphicon-user gray"></span></a>
+        	<a href="/" class="navbar-toggle float_l"><span class="glyphicon glyphicon-refresh green"></span></a>
+        	<a href="../" class="navbar-brand">Together</a>
+        </div>
+       
+      </div>
+    </header>
+
+<!--main-->
+    <div class="bs-header" id="content">
+      <div class="container">
+<!--        <h2>do anythings with friends</h2>        
+-->      </div>
+    </div>
+    
+		<div class='container' id='container'>
+			<% if (success) { %>
+				<div class='alert alert-success'>
+					<%= success %>
+				</div>
+			<% } %>
+			<% if (error) { %>
+				<div class='alert alert-error'>
+					<%= error %>
+				</div>
+			<% } %>
+			<%- body %>
+		</div>
+		
+		<footer>
+			<p><a href='#'>zwx</a> 2013</p>
+		</footer>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src='/javascripts/bootstrap.min.js'></script>
+	</body>
+</html>

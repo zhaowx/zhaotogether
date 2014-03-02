@@ -1,0 +1,65 @@
+<!--main-->
+<div class="bs-header" id="content">
+  <div class="container"> 
+    <!--        <h2>do anythings with friends</h2>        
+--> </div>
+</div>
+<div class="container">
+  <div class="col-lg-12"> 
+  	<div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Friends List</h3>
+      </div>
+
+        <ul class="list-group friend_list">
+          <li class="list-group-item"><img src="/images/users/avatar2.jpeg"><span class="f_name">Lazar</span><a class="glyphicon glyphicon-comment btn-lg float_r"></a></li>
+          <li class="list-group-item"><img src="/images/users/avatar.jpg"><span class="f_name">zhaoWx</span><a class="glyphicon glyphicon-comment btn-lg float_r"></a></li>
+		  <li class="list-group-item"><img src="/images/users/avatar2.jpeg"><span class="f_name">GZP</span><a class="glyphicon glyphicon-comment btn-lg float_r"></a></li>
+          <li class="list-group-item"><img src="/images/users/avatar.jpg"><span class="f_name">xiaoM</span><a class="glyphicon glyphicon-comment btn-lg float_r"></a></li>
+          <li class="list-group-item"><img src="/images/users/avatar3.jpeg"><span class="f_name">Jim</span><a class="glyphicon glyphicon-comment btn-lg float_r"></a></li>
+        </ul>
+      
+    </div>
+  </div>
+  
+  <div class="col-lg-12"> 
+    
+    <!--imessage-->
+    <div class="box gradient">
+      <div class="title" onClick="$(this).next().toggle();">
+        <h4> <span class="icon16 icomoon-icon-bubbles-6"></span> <span>Messages box</span> </h4>
+        
+      </div>
+      <div class="content noPad">
+        <ul class="messages">
+          <li class="user clearfix"> <a class="avatar" href="#"> <img alt="" src="/images/users/avatar2.jpeg"> </a>
+            <div class="message">
+              <div class="head clearfix"> <span class="name"><strong>Lazar</strong> says:</span> <span class="time">55s ago</span> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </li>
+          <li class="admin clearfix"> <a class="avatar" href="#"> <img alt="" src="/images/users/avatar3.jpeg"> </a>
+            <div class="message">
+              <div class="head clearfix"> <span class="name"><strong>zwx</strong> says:</span> <span class="time">15s ago</span> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </li>
+          <li class="user clearfix"> <a class="avatar" href="#"> <img alt="" src="/images/users/avatar2.jpeg"> </a>
+            <div class="message">
+              <div class="head clearfix"> <span class="name"><strong>Lazar</strong> says:</span> <span class="time">just now</span> </div>
+              <p> what about? </p>
+            </div>
+          </li>
+          <li class="sendMsg">
+            <form action="#" class="form-horizontal">
+              <textarea style="width:98%;" placeholder="Enter your message ..." rows="1" id="textarea" class="form-control margin_b_10"></textarea>
+              <button class="btn btn-info" type="submit">Send message</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
